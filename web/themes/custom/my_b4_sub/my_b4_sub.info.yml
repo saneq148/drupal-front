@@ -1,0 +1,21 @@
+name: 'My B4 Subtheme'
+type: theme
+description: 'My B4 Subtheme subtheme based on Bootstrap 4 theme.'
+core: 8.x
+core_version_requirement: '^8 || ^9'
+'base theme': bootstrap4
+stylesheets-remove:
+  - '@bootstrap4/css/style.css'
+
+regions:
+  header: Header
+  nav_branding: 'Navigation branding region'
+  nav_main: 'Main navigation region'
+  social: 'Social icons'
+  search: 'Search form'
+  slogan: 'Slogan region'
+  breadcrumb: Breadcrumbs
+  content: 'Main content'
+  sidebar_first: 'Sidebar first'
+  sidebar_second: 'Sidebar second'
+  footer: Footer

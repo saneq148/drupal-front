@@ -1,0 +1,14 @@
+{
+  "name": "my_b4_sub",
+  "version": "1.0.0",
+  "description": "Just for compiling scss",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss -o css --source-map true"
+  },
+  "author": "Yuraul",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
