@@ -1,0 +1,9 @@
+// Include custom sub theme.
+//@import 'custom/misc';
+// Include bootstrap variables definitions overrides.
+//@import 'custom/variables';
+
+// Include parent theme with all things Bootstrap for full override.
+@import "../../../../themes/contrib/bootstrap4/scss/style.scss";
+
+
