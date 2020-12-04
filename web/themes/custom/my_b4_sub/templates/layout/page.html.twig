@@ -56,34 +56,40 @@ set footer_classes = ' ' ~
   (b4_footer_bg_schema != 'none' ? " bg-#{b4_footer_bg_schema}" : ' ')
 %}
 
-<header>
+<header class="header">
+  <div class="article-container">
   {{ page.header }}
   {% if page.nav_branding or page.nav_main or page.nav_additional %}
   <nav class="{{ nav_classes }} ">
-    <div class="{{ b4_top_container }} row justify-content-lg-start mx-auto">
-      <div class="col p-0">
+    <div class="{{ b4_top_container }} row mx-auto">
+      <div class="nav-logo">
       {{ page.nav_branding }}
       </div>
 
-      <div class="col order-xl-3 p-0">
+      <div class="nav-links" id="navbarSupportedContent">
+        {{ page.nav_main }}
+      </div>
+
+      <div class="nav-social">
         {{ page.social }}
       </div>
 
-      <div class="col order-sm-4 p-0">
-        <button class="navbar-toggler collapsed navbar-light" type="button" data-toggle="collapse"
-                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                aria-expanded="false" aria-label="Toggle navigation">
+      <div class="nav-search">
+        {{ page.search }}
+      </div>
+
+      <div class="nav-burger">
+        <button class="navbar-toggler hidden" type="button">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <button class="navigation-tog">
           <span class="navbar-toggler-icon"></span>
         </button>
       </div>
 
-      <div class="col-12 col-sm order-sm-3 p-0">
-        {{ page.search }}
-      </div>
 
-      <div class="collapse navbar-collapse col-12 col-xl-auto px-0 py-1 order-sm-5 order-xl-2 justify-content-center justify-content-xl-start" id="navbarSupportedContent">
-        {{ page.nav_main }}
-      </div>
+
+
 
     </div>
   </nav>
@@ -92,7 +98,7 @@ set footer_classes = ' ' ~
   <div class="container">
     {{ page.slogan }}
   </div>
-
+</div>
 </header>
 
 <main role="main">
@@ -134,7 +140,7 @@ set footer_classes = ' ' ~
 </main>
 
 {% if page.footer %}
-<footer class="mt-auto {{ footer_classes }}">
+<footer class="mt-auto footer{{ footer_classes }}">
   <div class="{{ b4_top_container }}">
     {{ page.footer }}
   </div>

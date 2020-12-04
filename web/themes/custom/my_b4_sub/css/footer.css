@@ -1,0 +1,17 @@
+.footer {
+  background-color: #373645; }
+
+.region-footer {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.block-social-media-links {
+  margin: auto 0; }
+
+/*# sourceMappingURL=footer.css.map */

@@ -4,6 +4,58 @@
 //@import 'custom/variables';
 
 // Include parent theme with all things Bootstrap for full override.
-@import "../../../../themes/contrib/bootstrap4/scss/style.scss";
+//@import "../../../../themes/contrib/bootstrap4/scss/style.scss";
+@import "vars";
+@import "mixin";
+@import "https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap-grid.min.css";
+@import "navbar";
+@import "about_block";
+@import "services_block";
+@import "projects_block";
+@import "team_block";
+@import "clients_block";
+@import "news_block";
+@import "footer";
 
-
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  color: $dark;
+  text-transform: uppercase;
+  display: block!important;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.article-container, .container {
+  max-width: $container-width;
+  @include mcenter;
+}
+.header {
+  background-image: url($img+'header.png');
+  background-position: center;
+  background-size: cover;
+  height: 800px;
+}
+.container {
+  padding: 0;
+  max-width: $container-width;
+}
+.navbar .container{
+  display: flex;
+  //max-width: 100%;
+  max-height: 115px;
+  background-color: $white;
+}
+.nav-burger {
+  display: none;
+}
+// DEBUG:
+.header{
+  //display: none;
+}
+@import "media";

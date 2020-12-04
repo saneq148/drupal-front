@@ -1,0 +1,48 @@
+.projects-block .bg-block, .news-block .bg-block {
+  background-image: url("../img/bg-lined.png"); }
+
+.projects-block .bg-block {
+  padding: 30px 0; }
+
+.view-projects .view-content {
+  padding-bottom: 75px; }
+
+.project-item {
+  background-color: #fff;
+  text-align: center; }
+  .project-item img {
+    width: 100%;
+    min-height: 290px;
+    height: 100%;
+    max-height: 500px;
+    -o-object-fit: cover;
+       object-fit: cover; }
+  .project-item h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: normal;
+    font-size: 22px; }
+  .project-item a {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 20px auto;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content; }
+
+.btn-secondary {
+  background-color: #373645;
+  color: #fff;
+  padding: 10px 15px; }
+
+.pager__item {
+  width: 30px;
+  height: 30px;
+  text-align: center; }
+  .pager__item a {
+    margin: auto;
+    color: #373645; }
+
+/*# sourceMappingURL=projects_block.css.map */

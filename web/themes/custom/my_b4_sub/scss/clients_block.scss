@@ -1,0 +1,21 @@
+@import "vars";
+@import "mixin";
+
+.view-clients-block .view-content{
+
+  display: flex;
+  //overflow-x: scroll;
+
+  >div {
+    margin: 10px;
+  }
+
+}
+.slick-slide {
+  margin: auto;
+}
+.slick-track{
+  display: flex!important;
+  justify-content: center;
+  vertical-align: middle;
+}

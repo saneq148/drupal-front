@@ -1,0 +1,23 @@
+.view-clients-block .view-content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+  .view-clients-block .view-content > div {
+    margin: 10px; }
+
+.slick-slide {
+  margin: auto; }
+
+.slick-track {
+  display: -webkit-box !important;
+  display: -webkit-flex !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  vertical-align: middle; }
+
+/*# sourceMappingURL=clients_block.css.map */

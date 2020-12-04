@@ -1,0 +1,100 @@
+.news-item {
+  background-color: #fff;
+  padding: 20px 0; }
+
+.news-block .bg-block {
+  padding-bottom: 20px; }
+
+.news-item-wrapper, .news-item {
+  height: 100%; }
+
+.news-item-upper-left {
+  max-width: 90px;
+  height: 100%;
+  text-align: center; }
+
+.news-item-upper .news-item-upper-right {
+  padding: 0 20px;
+  width: calc(100% - 90px);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.news-item-upper-right, .news-item-lower {
+  border-left: 1px solid #c4c4c4; }
+
+.news-item-lower {
+  margin: 20px 0 0 90px;
+  padding: 0 20px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+  .news-item-lower .btn-secondary {
+    margin: auto 0 auto auto;
+    float: right; }
+  .news-item-lower h3 {
+    font-weight: lighter;
+    font-size: 22px;
+    margin-bottom: 10px; }
+  .news-item-lower p {
+    word-break: break-all;
+    font-size: 12px;
+    margin-bottom: 10px; }
+
+.news-item-user .user {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-size: 12px; }
+  .news-item-user .user img {
+    float: left;
+    margin-right: 5px;
+    width: 78px;
+    height: 78px; }
+
+.writer {
+  color: #c4c4c4; }
+
+.user-position {
+  color: #6e9bca; }
+
+.ago {
+  min-width: 100px;
+  font-size: 12px;
+  text-align: right;
+  color: #c4c4c4; }
+
+.news-block .form-submit, .news-block .form-text {
+  height: 40px;
+  margin-top: 20px;
+  border: 1px solid #c4c4c4;
+  border-radius: 5px;
+  margin-right: 5px; }
+  .news-block .form-submit svg, .news-block .form-text svg {
+    margin-top: 2px; }
+
+.news-block .form-text {
+  float: left;
+  color: black;
+  padding-left: 10px; }
+
+.news-block .form-submit {
+  border-left: none;
+  float: right; }
+
+/*# sourceMappingURL=news_block.css.map */

@@ -28,6 +28,6 @@
     <input{{ attributes.addClass('btn btn-primary') }} />
   {% endif %}
 {% else %}
-  <input{{ attributes.addClass('form-control news-search-input') }} />
+  <input{{ attributes.addClass('form-control') }} {{ attributes.setAttribute('placeholder', 'Search') }}/>
 {% endif %}
 {{ children }}

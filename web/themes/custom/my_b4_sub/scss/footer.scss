@@ -1,0 +1,14 @@
+@import "vars";
+@import "mixin";
+
+.footer {
+  background-color: $dark;
+}
+.region-footer {
+  display: flex;
+  justify-content: space-between;
+  //padding: 30px 20px 30px 0;
+}
+.block-social-media-links {
+  margin: auto 0;
+}
