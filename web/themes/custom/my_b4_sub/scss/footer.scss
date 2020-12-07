@@ -3,6 +3,10 @@
 
 .footer {
   background-color: $dark;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .region-footer {
   display: flex;
@@ -11,4 +15,5 @@
 }
 .block-social-media-links {
   margin: auto 0;
+  padding: 7px 0 0px;
 }

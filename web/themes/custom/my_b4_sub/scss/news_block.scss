@@ -1,13 +1,19 @@
 @import "vars";
 @import "mixin";
 
-
+.news-block.block-views .linethrough-title {
+  margin-bottom: 20px;
+}
+.view-news-block .view-content {
+  padding-bottom: 60px;
+}
 .news-item{
   background-color: $white;
   padding: 20px 0;
 }
 .news-block .bg-block {
-  padding-bottom: 20px;
+  //margin-top: -10px;
+  //padding-bottom: 20px;
 }
 .news-item-wrapper, .news-item {
   height: 100%;
@@ -72,7 +78,7 @@
 }
 .news-block {
   .form-submit, .form-text {
-    height: 40px;
+    height: 35px;
     margin-top: 20px;
     border: 1px solid $grey;
     border-radius: 5px;
@@ -93,4 +99,31 @@
     float: right;
     //width: 40px;
   }
+}
+.btn-secondary {
+  background-color: $dark;
+  color: $white;
+  margin: 14px auto 22px;
+  font-size: 13px;
+  //padding: 0px 10px;
+  line-height: 30px;
+  padding-top: 2px;
+  width: 100px;
+  display: block;
+  text-align: center;
+}
+.news__date--month {
+  font-size: 26px;
+  line-height: 20px;
+}
+.news__date--number {
+  color: $blue;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 48px;
+}
+.news__date--year {
+  font-size: 15px;
+  line-height: 10px;
+  color: $grey;
 }

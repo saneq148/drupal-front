@@ -1,9 +1,12 @@
+.news-block.block-views .linethrough-title {
+  margin-bottom: 20px; }
+
+.view-news-block .view-content {
+  padding-bottom: 60px; }
+
 .news-item {
   background-color: #fff;
   padding: 20px 0; }
-
-.news-block .bg-block {
-  padding-bottom: 20px; }
 
 .news-item-wrapper, .news-item {
   height: 100%; }
@@ -80,7 +83,7 @@
   color: #c4c4c4; }
 
 .news-block .form-submit, .news-block .form-text {
-  height: 40px;
+  height: 35px;
   margin-top: 20px;
   border: 1px solid #c4c4c4;
   border-radius: 5px;
@@ -96,5 +99,31 @@
 .news-block .form-submit {
   border-left: none;
   float: right; }
+
+.btn-secondary {
+  background-color: #343343;
+  color: #fff;
+  margin: 14px auto 22px;
+  font-size: 13px;
+  line-height: 30px;
+  padding-top: 2px;
+  width: 100px;
+  display: block;
+  text-align: center; }
+
+.news__date--month {
+  font-size: 26px;
+  line-height: 20px; }
+
+.news__date--number {
+  color: #6e9bca;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 48px; }
+
+.news__date--year {
+  font-size: 15px;
+  line-height: 10px;
+  color: #c4c4c4; }
 
 /*# sourceMappingURL=news_block.css.map */

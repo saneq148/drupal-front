@@ -1,9 +1,11 @@
 @import "vars";
 @import "mixin";
 
-
+.our-team-block {
+  margin-bottom: 178px;
+}
 .team-item {
-  display: flex;
+  //display: flex;
   justify-content: center;
   flex-direction: column;
   text-align: center;
@@ -13,21 +15,39 @@
     height: auto;
   }
   .btn-secondary {
-    margin: 20px auto;
+    background-color: $dark;
+    color: $white;
+    margin: 14px auto 22px;
+    font-size: 13px;
+    //padding: 0px 10px;
+    line-height: 30px;
+    padding-top: 2px;
+    width: 100px;
+    display: block;
   }
   h3 {
-    margin-top: 30px;
+    margin-top: 26px;
     font-weight: lighter;
-    font-size: 22px;
+    font-size: 25px;
   }
   p{
     color: $grey;
-    font-size: 14px;
+    font-size: 13px;
+    margin-top: -3px;
   }
   .platforms {
     float: left;
+    margin-left: 35px;
   }
   .like-btn {
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
     float: right;
+    background-image: url($img + "/icons/like.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 5px 50px;
+    width: 25px;
   }
 }

@@ -2,14 +2,15 @@
   background-image: url("../img/bg-lined.png"); }
 
 .projects-block .bg-block {
-  padding: 30px 0; }
+  padding: 55px 0 223px; }
 
 .view-projects .view-content {
-  padding-bottom: 75px; }
+  padding-bottom: 50px; }
 
 .project-item {
   background-color: #fff;
-  text-align: center; }
+  text-align: center;
+  border-bottom: 1px solid #343343; }
   .project-item img {
     width: 100%;
     min-height: 290px;
@@ -18,24 +19,26 @@
     -o-object-fit: cover;
        object-fit: cover; }
   .project-item h3 {
-    margin-top: 20px;
-    margin-bottom: 10px;
+    margin-top: 27px;
     font-weight: normal;
-    font-size: 22px; }
+    font-size: 24px; }
   .project-item a {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    margin: 20px auto;
+    font-size: 15px;
+    margin: 4px auto;
     width: -webkit-fit-content;
     width: -moz-fit-content;
     width: fit-content; }
-
-.btn-secondary {
-  background-color: #373645;
-  color: #fff;
-  padding: 10px 15px; }
+  .project-item .btn-secondary {
+    background-color: #343343;
+    color: #fff;
+    margin-top: 18px;
+    margin-bottom: 12px;
+    font-size: 14px;
+    padding: 0 8px; }
 
 .pager__item {
   width: 30px;
@@ -43,6 +46,6 @@
   text-align: center; }
   .pager__item a {
     margin: auto;
-    color: #373645; }
+    color: #343343; }
 
 /*# sourceMappingURL=projects_block.css.map */

@@ -7,18 +7,23 @@
   justify-content: space-between;
   border-top: 5px solid black;
   border-bottom: 5px solid $blue;
-  padding: 15px 0;
-  margin: 100px 0;
+  //padding: 15px 0;
+  margin: 100px 0 90px;
+  height: 72px;
   * {
     margin: auto 0;
   }
   p {
-    margin: 10px 0;
+    font-size: 20px;
+    //margin: 10px 0;
     color: $grey;
   }
 }
+h2 {
+  font-size: 29px;
+}
 .btn-primary {
-  height: 35px;
+  height: 30px;
   text-align: center;
   display: flex;
   vertical-align: middle;
@@ -36,7 +41,7 @@
 .linethrough-title.container  {
   overflow: hidden;
   text-align: center;
-  margin: 30px auto;
+  margin: 25px auto;
 }
 
 .linethrough-title:before,
@@ -61,3 +66,22 @@
 }
 
 // END HEADER
+
+.weirdline {
+  height: 5px;
+  width: 100%;
+  margin: 0 15px;
+  background-color: $grey;
+  display: flex;
+  &::before, &::after {
+    height: 5px;
+    width: 33%;
+    background-color: $blue;
+    content: "";
+    display: flex;
+  }
+  &::after  {
+    width: 5px;
+    background-color: $dark;
+  }
+}

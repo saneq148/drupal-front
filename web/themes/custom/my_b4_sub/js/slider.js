@@ -1,11 +1,18 @@
 $('.view-clients-block').children('.view-content').slick({
   infinite: true,
-  slidesToShow: 6,
-  slidesToScroll: 6,
+  slidesToShow: 8,
+  slidesToScroll: 8,
   dots: false,
   prevArrow: false,
   nextArrow: false,
   responsive: [
+  {
+  breakpoint: 1250,
+  settings: {
+  slidesToShow: 6,
+  slidesToScroll: 6
+  }
+  },
   {
   breakpoint: 992,
   settings: {

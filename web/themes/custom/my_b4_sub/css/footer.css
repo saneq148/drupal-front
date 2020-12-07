@@ -1,5 +1,19 @@
 .footer {
-  background-color: #373645; }
+  background-color: #343343;
+  height: 200px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
 
 .region-footer {
   display: -webkit-box;
@@ -12,6 +26,7 @@
           justify-content: space-between; }
 
 .block-social-media-links {
-  margin: auto 0; }
+  margin: auto 0;
+  padding: 7px 0 0px; }
 
 /*# sourceMappingURL=footer.css.map */

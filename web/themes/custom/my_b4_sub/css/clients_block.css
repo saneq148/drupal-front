@@ -20,4 +20,10 @@
           justify-content: center;
   vertical-align: middle; }
 
+.clients-block .linethrough-title.container {
+  margin-top: 25px; }
+
+.clients-block .bg-block {
+  padding-bottom: 125px; }
+
 /*# sourceMappingURL=clients_block.css.map */
